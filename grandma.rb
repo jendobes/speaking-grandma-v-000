@@ -11,6 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+require 'pry'
 def speak_to_grandma (phrase)
   if phrase != phrase.upcase
     puts "HUH?! SPEAK UP, SONNY!"
@@ -21,5 +22,3 @@ def speak_to_grandma (phrase)
   end
   binding.pry
 end
-
-binding.pry
