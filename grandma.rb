@@ -20,5 +20,5 @@ def speak_to_grandma (phrase)
   else phrase ==  "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
-  binding.pry
 end
+binding.pry
